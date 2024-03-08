@@ -1,4 +1,5 @@
 # Stellar Object Classification - Project README 
+[Link to Jupyter Notebook](https://github.com/seanhulseman/stellar-object-classification---larger-attempt/blob/main/stellar_object_id.ipynb)
 ## Problem Statement
 The field of astronomy relies heavily on the accurate and efficient classification of celestial objects. The Sloan Digital Sky Survey (SDSS) provides a rich dataset with columns such as ultraviolet (u), green (g), red (r), near-infrared (i), infrared (z), 'class', and 'redshift'. The challenge is to develop a robust classification model that accurately identifies the class of celestial objects based on their spectral features. The goal of this project is to create a model that accurately distinguishes between types of stellar objects from Sloan Digital Sky Survey (SDSS) data to help physicists more finely distinguish quasars, galaxies, and stars.
 
