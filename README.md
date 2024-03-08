@@ -1,9 +1,17 @@
 # Stellar Object Classification - Project README 
 ## Problem Statement
-The field of astronomy relies heavily on the accurate and efficient classification of celestial objects. The Sloan Digital Sky Survey (SDSS) provides a rich dataset with columns such as 'u', 'g', 'r', 'i', 'z', 'class', and 'redshift'. The challenge is to develop a robust classification model that accurately identifies the class of celestial objects based on their spectral features. The goal of this project is to create a model that accurately distinguishes between types of stellar objects from Sloan Digital Sky Survey (SDSS) data to help physicists more finely distinguish quasars, galaxies, and stars.
+The field of astronomy relies heavily on the accurate and efficient classification of celestial objects. The Sloan Digital Sky Survey (SDSS) provides a rich dataset with columns such as ultraviolet (u), green (g), red (r), near-infrared (i), infrared (z), 'class', and 'redshift'. The challenge is to develop a robust classification model that accurately identifies the class of celestial objects based on their spectral features. The goal of this project is to create a model that accurately distinguishes between types of stellar objects from Sloan Digital Sky Survey (SDSS) data to help physicists more finely distinguish quasars, galaxies, and stars.
 
+# Executive Summary
+## Problem Overview
+The classification of celestial objects is a fundamental task in astronomy, and the SDSS dataset, comprising 2.2 million data points, provides an opportunity to enhance the accuracy and efficiency of this process. The project aims to leverage machine learning techniques to develop a classification model for celestial objects based on their spectral features and astronomer-determined redshifts.
 
+## Goals and Objectives
+* Develop a machine-learning model for classifying celestial objects.
+* Achieve a classification accuracy of at least 98% on the test dataset.
+* Learn something new about quasars. I recently read an article [here](https://www.smithsonianmag.com/smart-news/astronomers-discover-the-brightest-known-object-in-the-universe-shining-500-trillion-times-as-bright-as-the-sun-180983815/) that discusses the discovery a quasar that was initially thought to be a star due to its immense brightness and it got me inspired to do an astrophysics related data science project
 
+## Data Dictionary 
 | Feature    | Type    | Dataset | Description                                        |
 |------------|---------|---------|----------------------------------------------------|
 | u          | float   | SDSS    | Ultraviolet filter in the photometric system              |
@@ -15,14 +23,6 @@ The field of astronomy relies heavily on the accurate and efficient classificati
 | redshift   | float   | SDSS    | Redshift value usually indicates the object's distance from Earth.  Redshift is a constant multiple to all wavelengths of the spectrum emitted by stellar objects|
 | ra         | float (0-360 degrees)  | SDSS    |This is similar to longitude on Earth but projected onto the celestial sphere.|
 | dec        | float (0-90 degrees)  | SDSS    |This is similar to latitude on Earth but projected onto the celestial sphere.|
-# Executive Summary
-## Problem Overview
-The classification of celestial objects is a fundamental task in astronomy, and the SDSS dataset, comprising 2.2 million data points, provides an opportunity to enhance the accuracy and efficiency of this process. The project aims to leverage machine learning techniques to develop a classification model for celestial objects based on their spectral features and astronomer-determined redshifts.
-
-## Goals and Objectives
-* Develop a machine-learning model for classifying celestial objects.
-* Achieve a classification accuracy of at least 98% on the test dataset.
-* Learn something new about quasars. I recently read an article [here](https://www.smithsonianmag.com/smart-news/astronomers-discover-the-brightest-known-object-in-the-universe-shining-500-trillion-times-as-bright-as-the-sun-180983815/) that discusses the discovery a quasar that was initially thought to be a star due to its immense brightness and it got me inspired to do an astrophysics related data science project
 ## Methodology
 The project involves the following steps:
 
